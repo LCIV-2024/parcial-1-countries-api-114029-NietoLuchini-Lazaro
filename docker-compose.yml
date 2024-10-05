@@ -1,0 +1,6 @@
+services:
+  app_country:
+    container_name: app_country
+    build: .
+    ports:
+      - "8080:8080"
